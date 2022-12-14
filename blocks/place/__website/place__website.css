@@ -3,3 +3,9 @@
     flex-direction: column-reverse;
     gap: 12px;
 }
+
+@media screen and (max-width: 365px){
+    .place__website{
+        padding: 0 16px;
+    }
+}

@@ -24,3 +24,14 @@
         margin-top: 88px;
     }
 }
+
+@media screen and (max-width: 320px){
+    .place:first-child{
+        margin-top: 64px;
+    }
+
+    .place{
+        margin-top: 50px;
+        gap: 32px;
+    }
+}

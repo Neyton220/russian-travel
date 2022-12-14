@@ -13,3 +13,5 @@
 
 1. Запусите Git Bash
 2. Введите команду *git clone адрес репозитория*
+
+https://neyton220.github.io/russian-travel/
