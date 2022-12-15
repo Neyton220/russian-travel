@@ -3,7 +3,7 @@
     font-style: normal;
     font-weight: 900;
     font-size: 96px;
-    line-height: 1.05;
+    line-height: 100px;
     max-width: 720px;
     margin: 56px auto 0 auto;
 }
@@ -17,15 +17,13 @@
 @media screen and (max-width: 720px){
     .lead__title{
         padding: 0 24px;
+        line-height: 1.1;
         font-size: calc(40px + 56 * ((100vw - 320px) / (720 - 320)));
     }
 }
 
-/* @media screen and (max-width: 320px){
+@media screen and (max-width: 650px){
     .lead__title{
-        width: 288px;
-        height: 88px;
-        font-size: 40px;
-        line-height: 44px;
+        padding: 0 16px;
     }
-} */
+}

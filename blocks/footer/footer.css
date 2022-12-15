@@ -1,6 +1,6 @@
 .footer{
     max-width: 1184px;
-    margin: 0 auto 20px auto;
+    margin: 0 auto 24px auto;
     padding: 0 48px;
     display: flex;
     justify-content: space-between;
@@ -9,6 +9,12 @@
 @media screen and (max-width:768px){
     .footer{
         padding: 0 24px;
+    }
+}
+
+@media screen and (max-width:320px){
+    .footer{
+        padding: 0 16px;
     }
 }
 
